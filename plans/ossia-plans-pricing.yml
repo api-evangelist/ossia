@@ -1,0 +1,29 @@
+generated: '2026-08-26'
+method: searched
+source: https://www.ossia.com/licensing
+plan_count: 0
+currency: null
+billing_model: technology-licensing
+note: >-
+  Ossia publishes no plans, tiers, list prices or public pricing page of any kind. The
+  company's own licensing page states plainly that "Ossia does not manufacture any products
+  that can be directly sold" and that it instead "work[s] with customers and partners to
+  license the Cota technology"; the only call to action on the page is the Contact Us form.
+  There is no /pricing, /plans or /cost page in the site's 641-URL sitemap. The commercial
+  model is a negotiated IP licence plus a Cota developer / reference design kit issued to
+  authorized licensees — a sales conversation, not a published price. plan_count is 0 because
+  that is the true count, not because pricing was not looked for.
+access:
+  route: contact-sales
+  url: https://www.ossia.com/contact
+  gated: true
+  free_tier: false
+  self_serve: false
+plans: []
+evidence:
+- url: https://www.ossia.com/licensing
+  status: 200
+- url: https://www.ossia.com/contact
+  status: 200
+- url: https://www.ossia.com/partners
+  status: 200

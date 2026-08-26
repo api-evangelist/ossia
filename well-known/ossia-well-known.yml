@@ -1,0 +1,35 @@
+generated: '2026-08-26'
+method: probed
+source: https://www.ossia.com/.well-known/
+note: >-
+  Every /.well-known/ path was probed on the only host Ossia operates (www.ossia.com — a
+  HubSpot CMS site). All five returned HTTP 404 and served the site's standard 22,749-byte
+  HTML 404 page, so nothing here is a document. No WellKnown or SecurityTxt pointer was
+  emitted in apis.yml: this file records a verified absence, not a served surface. Ossia
+  publishes no API host — developer.ossia.com, api.ossia.com, docs.ossia.com, dev.ossia.com,
+  portal.ossia.com, cloud.ossia.com and app.ossia.com do not resolve in DNS at all — so
+  www.ossia.com is the complete set of hosts to probe.
+hosts:
+- host: www.ossia.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
