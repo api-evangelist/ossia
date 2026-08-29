@@ -15,6 +15,17 @@ description: 'Ossia, Inc. is a Redmond, Washington wireless power technology com
   other countries. Ossia publishes no public API, developer portal, SDK or machine-readable
   contract of any kind — the developer surface it does have is hardware and firmware delivered
   under license.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.ossia.com/hubfs/OssiaWebFeature-1.png
 url: https://raw.githubusercontent.com/api-evangelist/ossia/refs/heads/main/apis.yml
 x-type: company
